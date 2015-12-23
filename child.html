@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Child Window</title>
+  </head>
+  <body>
+    <h3>Child window: uuid / name</h3>
+      <span></span>
+    <script>
+      window.addEventListener('DOMContentLoaded', function(){
+        chrome.desktop.getDetails(function(info){
+          console.log(info);
+           var span = document.querySelector('span');
+           span.innerHTML = info.options.uuid + '/' + info.options.name;
+        });
+      });
+      
+</script>
+</body>
+</html>
