@@ -1,0 +1,19 @@
+{
+    "devtools_port": 9090,
+    "startup_app": {
+        "name": "app-win-demo",
+        "description": "OpenFin POC",
+        "url": "http://local:8080",
+        "uuid": "app-win-demo",
+        "autoShow": true
+    },
+    "runtime": {
+        "arguments": "",
+        "version": "beta"
+    },
+    "shortcut": {
+        "company": "OpenFin",
+        "description": "Openfin POC",
+        "name": "app-win-demo"
+    }
+}
