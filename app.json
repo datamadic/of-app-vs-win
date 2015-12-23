@@ -3,7 +3,7 @@
     "startup_app": {
         "name": "app-win-demo",
         "description": "OpenFin POC",
-        "url": "http://local:8080",
+        "url": "http://datamadic.github.io/of-app-vs-win/",
         "uuid": "app-win-demo",
         "autoShow": true
     },
